@@ -1,4 +1,6 @@
+import WebGLErrorBoundary from '@/components/3d/WebGLErrorBoundary';
 import { Scene3D } from '@/components/3d/Scene3D';
+import { AnimatedBackground } from '@/components/3d/AnimatedBackground';
 import { Navigation } from '@/components/ui/navigation';
 import { Hero } from '@/components/sections/Hero';
 import { AboutEcell } from '@/components/sections/AboutEcell';
@@ -10,8 +12,10 @@ import { Footer } from '@/components/ui/footer';
 const Index = () => {
   return (
     <div className="min-h-screen relative">
-      {/* 3D Background Scene */}
-      <Scene3D />
+      {/* 3D Background Scene with Fallback */}
+      <WebGLErrorBoundary fallback={<AnimatedBackground />}>
+        <Scene3D />
+      </WebGLErrorBoundary>
       
       {/* Navigation */}
       <Navigation />
