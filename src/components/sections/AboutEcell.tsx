@@ -54,72 +54,56 @@ export function AboutEcell() {
           className="text-center mb-16"
         >
           <h2 className="text-5xl md:text-6xl font-bold mb-6">
-            About <span className="bg-gradient-primary bg-clip-text text-transparent">ECELL</span>
+            OUR <span className="bg-gradient-primary bg-clip-text text-transparent">VISION</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            Entrepreneurship Cell at LNCT believes that entrepreneurship is not a part time job or a full time job, 
-            it is lifestyle. We ensure that entrepreneurship is taken as an attitude and is always depicted in the 
-            events conducted by our cell.
-          </p>
         </motion.div>
 
-        {/* Main Content */}
-        <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
-          {/* Left Content */}
-          <motion.div
-            initial={{ opacity: 0, x: -50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
-            className="space-y-6"
-          >
-            <div className="glass p-8 rounded-2xl">
-              <h3 className="text-3xl font-bold mb-4 text-primary">Our Vision</h3>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                E-Cell LNCT believes that what truly matters in entrepreneurship is not the profits one can make, 
-                rather it is more of a journey where an individual has loads to learn along the way. A true 
-                entrepreneur believes firmly in his or her passion, and takes risks to build a fruitful career 
-                around a larger cause.
-              </p>
-            </div>
+        {/* Vision Content */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+          viewport={{ once: true }}
+          className="max-w-4xl mx-auto mb-20"
+        >
+          <div className="glass p-8 rounded-2xl">
+            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+              E-Cell LNCT believes that what truly matters in entrepreneurship is not the profits one can make, rather it is more of a journey where an individual has loads to learn along the way.
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed mb-6">
+              A true entrepreneur believes firmly in his or her passion, and takes risks to build a fruitful career around a larger cause. He knows how to lead a team, solve problems, tap potential, and turn even the worst of setbacks into opportunities. Today, India is witnessing a boom in entrepreneurship like never before with an ever increasing number of people from across ages, social and geographical backgrounds now trying to build businesses out of problem statements.
+            </p>
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              With entrepreneurs becoming the new age celebrities, we are definitely taking the right steps as a society and a nation!
+            </p>
+          </div>
+        </motion.div>
 
-            <div className="glass p-8 rounded-2xl">
-              <h3 className="text-3xl font-bold mb-4 text-secondary">Our Mission</h3>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                We conduct multiple events like E-Summit, talk sessions and workshops to promote entrepreneurship 
-                and fuel the fire in the budding entrepreneurial minds. We bring together students, professors, 
-                experts from various domains to share their ideas and serve as opportunities for many who aspire 
-                to "Solve Something Big" in their lives.
-              </p>
-            </div>
-          </motion.div>
-
-          {/* Right Content - Statistics */}
-          <motion.div
-            initial={{ opacity: 0, x: 50 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8, delay: 0.2 }}
-            viewport={{ once: true }}
-            className="grid grid-cols-2 gap-6"
-          >
-            <div className="glass p-6 rounded-xl text-center hover:neon-glow transition-all duration-300">
-              <div className="text-4xl font-bold text-primary mb-2">7L+</div>
-              <div className="text-sm text-muted-foreground">Fest Reach</div>
-            </div>
-            <div className="glass p-6 rounded-xl text-center hover:cyber-glow transition-all duration-300">
-              <div className="text-4xl font-bold text-secondary mb-2">5000+</div>
-              <div className="text-sm text-muted-foreground">Competition Registrations</div>
-            </div>
-            <div className="glass p-6 rounded-xl text-center hover:neon-glow transition-all duration-300">
-              <div className="text-4xl font-bold text-accent mb-2">3000+</div>
-              <div className="text-sm text-muted-foreground">Event Attendees</div>
-            </div>
-            <div className="glass p-6 rounded-xl text-center hover:cyber-glow transition-all duration-300">
-              <div className="text-4xl font-bold text-primary mb-2">200+</div>
-              <div className="text-sm text-muted-foreground">Participating Colleges</div>
-            </div>
-          </motion.div>
-        </div>
+        {/* Statistics */}
+        <motion.div
+          initial={{ opacity: 0, y: 50 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+          viewport={{ once: true }}
+          className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-20"
+        >
+          <div className="glass p-6 rounded-xl text-center hover:neon-glow transition-all duration-300">
+            <div className="text-4xl font-bold text-primary mb-2">7L+</div>
+            <div className="text-sm text-muted-foreground">Fest Reach</div>
+          </div>
+          <div className="glass p-6 rounded-xl text-center hover:cyber-glow transition-all duration-300">
+            <div className="text-4xl font-bold text-secondary mb-2">5000+</div>
+            <div className="text-sm text-muted-foreground">Competition Registrations</div>
+          </div>
+          <div className="glass p-6 rounded-xl text-center hover:neon-glow transition-all duration-300">
+            <div className="text-4xl font-bold text-accent mb-2">3000+</div>
+            <div className="text-sm text-muted-foreground">Event Attendees</div>
+          </div>
+          <div className="glass p-6 rounded-xl text-center hover:cyber-glow transition-all duration-300">
+            <div className="text-4xl font-bold text-primary mb-2">200+</div>
+            <div className="text-sm text-muted-foreground">Participating Colleges</div>
+          </div>
+        </motion.div>
 
         {/* Features Grid */}
         <motion.div

@@ -7,8 +7,12 @@ export function Navigation() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const menuItems = [
-    { href: '#about', label: 'About ECELL' },
-    { href: '#how-it-works', label: 'How It Works' },
+    { href: '#about', label: 'Our Vision' },
+    { href: '#how-it-works', label: 'Our Initiatives' },
+    { href: '#recent-events', label: 'Recent Events' },
+    { href: '#upcoming-events', label: 'Upcoming Events' },
+    { href: '#past-events', label: 'Past Events' },
+    { href: '#blogs', label: 'Our Blogs' },
     { href: '#participants', label: 'Past Participants' },
     { href: '#contact', label: 'Contact' },
   ];
@@ -20,7 +24,7 @@ export function Navigation() {
           {/* Logo */}
           <div className="flex items-center">
             <div className="text-2xl font-bold bg-gradient-primary bg-clip-text text-transparent">
-              ECELL LNCTE
+              E-CELL LNCT
             </div>
           </div>
 

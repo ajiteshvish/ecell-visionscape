@@ -16,22 +16,26 @@ export function Hero() {
           {/* Main Heading */}
           <h1 className="text-6xl md:text-8xl font-bold mb-6">
             <span className="bg-gradient-primary bg-clip-text text-transparent">
-              ECELL
+              Entrepreneurship Cell
             </span>
             <br />
-            <span className="text-foreground">LNCTE</span>
+            <span className="text-foreground">LNCT Bhopal</span>
           </h1>
+          
+          <h2 className="text-4xl md:text-5xl font-bold mb-8 text-foreground">
+            E-CELL LNCT BHOPAL
+          </h2>
 
-          {/* Subtitle */}
+          {/* Main Description */}
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto"
+            className="text-lg md:text-xl text-muted-foreground mb-8 max-w-4xl mx-auto leading-relaxed"
           >
-            Spreading the spirit of <span className="text-neon">entrepreneurship</span> at{' '}
-            <span className="text-cyber">LNCT Bhopal</span>.
-            Entrepreneurship is not a part time job or full time job, it's a lifestyle.
+            Entrepreneurship Cell at LNCT believes that entrepreneurship is not a part time job or a full time job, it is lifestyle. 
+            This is something that can be seen eminently in the working style of the E-Cell. We ensure that entrepreneurship is taken as an attitude and is always depicted in the 
+            events conducted by our cell. We conduct multiple events like Marketing Fiesta, E-Summit, talk sessions and workshops to promote entrepreneurship and fuel the fire in the budding entrepreneurial minds. We bring together students, professors, experts from various domains to share their ideas on a common topic of interest to bring the best out of the interaction. These events serve as an opportunity for many who aspire to "Solve Something Big" in their lives.
           </motion.p>
 
           {/* CTA Buttons */}

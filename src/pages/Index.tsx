@@ -5,6 +5,10 @@ import { Navigation } from '@/components/ui/navigation';
 import { Hero } from '@/components/sections/Hero';
 import { AboutEcell } from '@/components/sections/AboutEcell';
 import { HowItWorks } from '@/components/sections/HowItWorks';
+import { RecentEvents } from '@/components/sections/RecentEvents';
+import { UpcomingEvents } from '@/components/sections/UpcomingEvents';
+import { PastEvents } from '@/components/sections/PastEvents';
+import { Blogs } from '@/components/sections/Blogs';
 import { ParticipantsShowcase } from '@/components/sections/ParticipantsShowcase';
 import { Contact } from '@/components/sections/Contact';
 import { Footer } from '@/components/ui/footer';
@@ -25,6 +29,10 @@ const Index = () => {
         <Hero />
         <AboutEcell />
         <HowItWorks />
+        <RecentEvents />
+        <UpcomingEvents />
+        <PastEvents />
+        <Blogs />
         <ParticipantsShowcase />
         <Contact />
       </main>
