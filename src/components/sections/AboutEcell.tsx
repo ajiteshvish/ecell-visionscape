@@ -57,9 +57,9 @@ export function AboutEcell() {
             About <span className="bg-gradient-primary bg-clip-text text-transparent">ECELL</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed">
-            The Entrepreneurship Cell (ECELL) at LNCT Bhopal is a vibrant community dedicated to 
-            nurturing entrepreneurial spirit and fostering innovation among students. We bridge 
-            the gap between ideas and implementation.
+            Entrepreneurship Cell at LNCT believes that entrepreneurship is not a part time job or a full time job, 
+            it is lifestyle. We ensure that entrepreneurship is taken as an attitude and is always depicted in the 
+            events conducted by our cell.
           </p>
         </motion.div>
 
@@ -76,18 +76,20 @@ export function AboutEcell() {
             <div className="glass p-8 rounded-2xl">
               <h3 className="text-3xl font-bold mb-4 text-primary">Our Vision</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                To create a dynamic ecosystem where students can explore, experiment, and excel 
-                in the world of entrepreneurship. We envision a future where every innovative 
-                idea finds the right platform to flourish.
+                E-Cell LNCT believes that what truly matters in entrepreneurship is not the profits one can make, 
+                rather it is more of a journey where an individual has loads to learn along the way. A true 
+                entrepreneur believes firmly in his or her passion, and takes risks to build a fruitful career 
+                around a larger cause.
               </p>
             </div>
 
             <div className="glass p-8 rounded-2xl">
               <h3 className="text-3xl font-bold mb-4 text-secondary">Our Mission</h3>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                To provide comprehensive support, mentorship, and resources to aspiring 
-                entrepreneurs. We facilitate knowledge sharing, skill development, and 
-                network building to transform ideas into successful ventures.
+                We conduct multiple events like E-Summit, talk sessions and workshops to promote entrepreneurship 
+                and fuel the fire in the budding entrepreneurial minds. We bring together students, professors, 
+                experts from various domains to share their ideas and serve as opportunities for many who aspire 
+                to "Solve Something Big" in their lives.
               </p>
             </div>
           </motion.div>
@@ -101,20 +103,20 @@ export function AboutEcell() {
             className="grid grid-cols-2 gap-6"
           >
             <div className="glass p-6 rounded-xl text-center hover:neon-glow transition-all duration-300">
-              <div className="text-4xl font-bold text-primary mb-2">500+</div>
-              <div className="text-sm text-muted-foreground">Students Reached</div>
+              <div className="text-4xl font-bold text-primary mb-2">7L+</div>
+              <div className="text-sm text-muted-foreground">Fest Reach</div>
             </div>
             <div className="glass p-6 rounded-xl text-center hover:cyber-glow transition-all duration-300">
-              <div className="text-4xl font-bold text-secondary mb-2">50+</div>
-              <div className="text-sm text-muted-foreground">Events Organized</div>
+              <div className="text-4xl font-bold text-secondary mb-2">5000+</div>
+              <div className="text-sm text-muted-foreground">Competition Registrations</div>
             </div>
             <div className="glass p-6 rounded-xl text-center hover:neon-glow transition-all duration-300">
-              <div className="text-4xl font-bold text-accent mb-2">25+</div>
-              <div className="text-sm text-muted-foreground">Startups Mentored</div>
+              <div className="text-4xl font-bold text-accent mb-2">3000+</div>
+              <div className="text-sm text-muted-foreground">Event Attendees</div>
             </div>
             <div className="glass p-6 rounded-xl text-center hover:cyber-glow transition-all duration-300">
-              <div className="text-4xl font-bold text-primary mb-2">100+</div>
-              <div className="text-sm text-muted-foreground">Industry Connections</div>
+              <div className="text-4xl font-bold text-primary mb-2">200+</div>
+              <div className="text-sm text-muted-foreground">Participating Colleges</div>
             </div>
           </motion.div>
         </div>

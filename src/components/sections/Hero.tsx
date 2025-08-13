@@ -29,9 +29,9 @@ export function Hero() {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto"
           >
-            Fostering <span className="text-neon">entrepreneurship</span> and{' '}
-            <span className="text-cyber">innovation</span> at LNCT Bhopal.
-            Building the future, one startup at a time.
+            Spreading the spirit of <span className="text-neon">entrepreneurship</span> at{' '}
+            <span className="text-cyber">LNCT Bhopal</span>.
+            Entrepreneurship is not a part time job or full time job, it's a lifestyle.
           </motion.p>
 
           {/* CTA Buttons */}
@@ -59,16 +59,16 @@ export function Hero() {
             className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16"
           >
             <div className="glass p-6 rounded-xl hover:neon-glow transition-all duration-300">
-              <div className="text-3xl font-bold text-primary mb-2">500+</div>
-              <div className="text-muted-foreground">Students Inspired</div>
+              <div className="text-3xl font-bold text-primary mb-2">5000+</div>
+              <div className="text-muted-foreground">Event Registrations</div>
             </div>
             <div className="glass p-6 rounded-xl hover:cyber-glow transition-all duration-300">
-              <div className="text-3xl font-bold text-secondary mb-2">50+</div>
-              <div className="text-muted-foreground">Startups Launched</div>
+              <div className="text-3xl font-bold text-secondary mb-2">200+</div>
+              <div className="text-muted-foreground">Participating Colleges</div>
             </div>
             <div className="glass p-6 rounded-xl hover:neon-glow transition-all duration-300">
-              <div className="text-3xl font-bold text-accent mb-2">10+</div>
-              <div className="text-muted-foreground">Years of Innovation</div>
+              <div className="text-3xl font-bold text-accent mb-2">10K+</div>
+              <div className="text-muted-foreground">Event Footfall</div>
             </div>
           </motion.div>
         </motion.div>
